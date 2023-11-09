@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48118" started-at="2023-10-26T09:21:39Z" finished-at="2023-10-26T09:22:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48118" started-at="2023-10-26T09:21:39Z" finished-at="2023-10-26T09:22:27Z">
+      <class name="org.test.testclass.Createslot">
+        <test-method status="PASS" signature="User_creates_slots()[pri:1, instance:org.test.testclass.Createslot@589838eb]" name="User_creates_slots" duration-ms="3560" started-at="2023-10-26T09:22:17Z" finished-at="2023-10-26T09:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_creates_slots -->
+        <test-method status="PASS" signature="User_delete_the_slot()[pri:2, instance:org.test.testclass.Createslot@589838eb]" name="User_delete_the_slot" duration-ms="6887" started-at="2023-10-26T09:22:20Z" finished-at="2023-10-26T09:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_delete_the_slot -->
+      </class> <!-- org.test.testclass.Createslot -->
+      <class name="org.test.testclass.Login">
+        <test-method status="PASS" signature="user_login_to_the_app()[pri:0, instance:org.test.testclass.Login@271053e1]" name="user_login_to_the_app" duration-ms="37600" started-at="2023-10-26T09:21:39Z" finished-at="2023-10-26T09:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_login_to_the_app -->
+      </class> <!-- org.test.testclass.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
