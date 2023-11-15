@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.test.testclass.Invalid_LoginStep" hash-for-method="user_login_to_the_app">user_login_to_the_app</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.test.testclass.LoginSteps" hash-for-method="user_login_to_the_app">user_login_to_the_app</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -117,12 +117,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.test.testclass.Valid_LoginStep" hash-for-method="user_login_to_the_app">user_login_to_the_app</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.test.testclass.LoginSteps" hash-for-method="user_login_to_the_app_with_invalid_credentials">user_login_to_the_app_with_invalid_credentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.test.testclass.EmptyField_LoginStep" hash-for-method="user_login_to_the_app">user_login_to_the_app</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="org.test.testclass.LoginSteps" hash-for-method="user_login_to_the_app_without_credentials">user_login_to_the_app_without_credentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -137,36 +137,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.test.testclass.Invalid_LoginStep</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="user_login_to_the_app">
-                  </a> <!-- user_login_to_the_app -->
-                  <span class="method-name">user_login_to_the_app</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.test.testclass.EmptyField_LoginStep</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="user_login_to_the_app">
-                  </a> <!-- user_login_to_the_app -->
-                  <span class="method-name">user_login_to_the_app</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -185,7 +155,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.test.testclass.LaunchStep</span>
+              <span class="class-name">org.test.testclass.LoginSteps</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -195,12 +165,26 @@
                   <span class="method-name">user_login_to_the_app</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_login_to_the_app_with_invalid_credentials">
+                  </a> <!-- user_login_to_the_app_with_invalid_credentials -->
+                  <span class="method-name">user_login_to_the_app_with_invalid_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_login_to_the_app_without_credentials">
+                  </a> <!-- user_login_to_the_app_without_credentials -->
+                  <span class="method-name">user_login_to_the_app_without_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">org.test.testclass.Valid_LoginStep</span>
+              <span class="class-name">org.test.testclass.LaunchStep</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -225,9 +209,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;org.test.testclass.LaunchStep&quot;/&gt;
-      &lt;class name=&quot;org.test.testclass.Valid_LoginStep&quot;/&gt;
-      &lt;class name=&quot;org.test.testclass.Invalid_LoginStep&quot;/&gt;
-      &lt;class name=&quot;org.test.testclass.EmptyField_LoginStep&quot;/&gt;
+      &lt;class name=&quot;org.test.testclass.LoginSteps&quot;/&gt;
       &lt;class name=&quot;org.test.testclass.LogoutStep&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -242,7 +224,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (5 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -272,28 +254,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'user_login_to_the_app')
 data.setCell(0, 2, 'org.test.testclass.LogoutStep')
-data.setCell(0, 3, 53954);
+data.setCell(0, 3, 48128);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'user_login_to_the_app')
-data.setCell(1, 2, 'org.test.testclass.Valid_LoginStep')
-data.setCell(1, 3, 44841);
+data.setCell(1, 2, 'org.test.testclass.LoginSteps')
+data.setCell(1, 3, 39664);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'user_login_to_the_app')
-data.setCell(2, 2, 'org.test.testclass.Invalid_LoginStep')
-data.setCell(2, 3, 38810);
+data.setCell(2, 1, 'user_login_to_the_app_with_invalid_credentials')
+data.setCell(2, 2, 'org.test.testclass.LoginSteps')
+data.setCell(2, 3, 28559);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'user_login_to_the_app')
-data.setCell(3, 2, 'org.test.testclass.EmptyField_LoginStep')
-data.setCell(3, 3, 32600);
+data.setCell(3, 1, 'user_login_to_the_app_without_credentials')
+data.setCell(3, 2, 'org.test.testclass.LoginSteps')
+data.setCell(3, 3, 27102);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'user_login_to_the_app')
 data.setCell(4, 2, 'org.test.testclass.LaunchStep')
-data.setCell(4, 3, 32009);
+data.setCell(4, 3, 25520);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -326,31 +308,25 @@ return data;
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">org.test.testclass.Valid_LoginStep</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">org.test.testclass.LoginSteps</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">user_login_to_the_app</span>
-                <span class="method-start">32014 ms</span>
+                <span class="method-start">25524 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.test.testclass.Invalid_LoginStep</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">user_login_to_the_app</span>
-                <span class="method-start">76856 ms</span>
+                <span class="method-name">user_login_to_the_app_with_invalid_credentials</span>
+                <span class="method-start">65190 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">org.test.testclass.EmptyField_LoginStep</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">user_login_to_the_app</span>
-                <span class="method-start">115668 ms</span>
+                <span class="method-name">user_login_to_the_app_without_credentials</span>
+                <span class="method-start">93753 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.test.testclass.LogoutStep</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">user_login_to_the_app</span>
-                <span class="method-start">148270 ms</span>
+                <span class="method-start">120861 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

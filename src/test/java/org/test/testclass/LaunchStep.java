@@ -18,7 +18,8 @@ public class LaunchStep extends UtilityClass{
 		try {
 			Archivereports.copy();
 			ReportConfig.Report();
-			ReportConfig.ReportCreateTestcase("User launch to the valid Url and checks login button is present");
+			ReportConfig.ReportCreateTestcase("Launch");
+			ReportConfig.ReportCreateNode("User launch to the valid Url and checks login button is present");
 			launchURL(ExcelRead.readData(1, 0, "Login"));
 			String currenturl=driver.getCurrentUrl();
 			if(currenturl.contains("https://www.comprobo.net"))

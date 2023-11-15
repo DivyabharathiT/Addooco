@@ -9,7 +9,8 @@ public class LogoutStep extends UtilityClass{
 	@Test(priority=4)
 	public void user_login_to_the_app() throws Throwable {
 		try {
-			ReportConfig.ReportCreateTestcase("User checks logout functionality is working");
+			ReportConfig.ReportCreateTestcase("Logout");
+			ReportConfig.ReportCreateNode("User checks logout functionality is working");
 			launchURL(ExcelRead.readData(1, 0, "Login"));
 			Thread.sleep(10000);
 			waitForElement("Addooccoemail", login);

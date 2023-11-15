@@ -2,36 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="202248" started-at="2023-11-08T13:05:30Z" finished-at="2023-11-08T13:08:52Z">
+  <suite name="Suite" duration-ms="169023" started-at="2023-11-10T11:13:00Z" finished-at="2023-11-10T11:15:49Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="202248" started-at="2023-11-08T13:05:30Z" finished-at="2023-11-08T13:08:52Z">
-      <class name="org.test.testclass.Invalid_LoginStep">
-        <test-method status="PASS" signature="user_login_to_the_app()[pri:2, instance:org.test.testclass.Invalid_LoginStep@3159c4b8]" name="user_login_to_the_app" duration-ms="38810" started-at="2023-11-08T13:06:47Z" finished-at="2023-11-08T13:07:26Z">
+    <test name="Test" duration-ms="169023" started-at="2023-11-10T11:13:00Z" finished-at="2023-11-10T11:15:49Z">
+      <class name="org.test.testclass.LoginSteps">
+        <test-method status="PASS" signature="user_login_to_the_app()[pri:1, instance:org.test.testclass.LoginSteps@5702b3b1]" name="user_login_to_the_app" duration-ms="39664" started-at="2023-11-10T11:13:26Z" finished-at="2023-11-10T11:14:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_login_to_the_app -->
-      </class> <!-- org.test.testclass.Invalid_LoginStep -->
-      <class name="org.test.testclass.EmptyField_LoginStep">
-        <test-method status="PASS" signature="user_login_to_the_app()[pri:3, instance:org.test.testclass.EmptyField_LoginStep@73846619]" name="user_login_to_the_app" duration-ms="32600" started-at="2023-11-08T13:07:26Z" finished-at="2023-11-08T13:07:58Z">
+        <test-method status="PASS" signature="user_login_to_the_app_with_invalid_credentials()[pri:2, instance:org.test.testclass.LoginSteps@5702b3b1]" name="user_login_to_the_app_with_invalid_credentials" duration-ms="28559" started-at="2023-11-10T11:14:06Z" finished-at="2023-11-10T11:14:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user_login_to_the_app -->
-      </class> <!-- org.test.testclass.EmptyField_LoginStep -->
-      <class name="org.test.testclass.Valid_LoginStep">
-        <test-method status="PASS" signature="user_login_to_the_app()[pri:1, instance:org.test.testclass.Valid_LoginStep@4b952a2d]" name="user_login_to_the_app" duration-ms="44841" started-at="2023-11-08T13:06:02Z" finished-at="2023-11-08T13:06:47Z">
+        </test-method> <!-- user_login_to_the_app_with_invalid_credentials -->
+        <test-method status="PASS" signature="user_login_to_the_app_without_credentials()[pri:3, instance:org.test.testclass.LoginSteps@5702b3b1]" name="user_login_to_the_app_without_credentials" duration-ms="27102" started-at="2023-11-10T11:14:34Z" finished-at="2023-11-10T11:15:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user_login_to_the_app -->
-      </class> <!-- org.test.testclass.Valid_LoginStep -->
+        </test-method> <!-- user_login_to_the_app_without_credentials -->
+      </class> <!-- org.test.testclass.LoginSteps -->
       <class name="org.test.testclass.LogoutStep">
-        <test-method status="PASS" signature="user_login_to_the_app()[pri:4, instance:org.test.testclass.LogoutStep@4bec1f0c]" name="user_login_to_the_app" duration-ms="53954" started-at="2023-11-08T13:07:58Z" finished-at="2023-11-08T13:08:52Z">
+        <test-method status="PASS" signature="user_login_to_the_app()[pri:4, instance:org.test.testclass.LogoutStep@69ea3742]" name="user_login_to_the_app" duration-ms="48128" started-at="2023-11-10T11:15:01Z" finished-at="2023-11-10T11:15:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_login_to_the_app -->
       </class> <!-- org.test.testclass.LogoutStep -->
       <class name="org.test.testclass.LaunchStep">
-        <test-method status="PASS" signature="user_login_to_the_app()[pri:0, instance:org.test.testclass.LaunchStep@69ea3742]" name="user_login_to_the_app" duration-ms="32009" started-at="2023-11-08T13:05:30Z" finished-at="2023-11-08T13:06:02Z">
+        <test-method status="PASS" signature="user_login_to_the_app()[pri:0, instance:org.test.testclass.LaunchStep@25bbe1b6]" name="user_login_to_the_app" duration-ms="25520" started-at="2023-11-10T11:13:00Z" finished-at="2023-11-10T11:13:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_login_to_the_app -->

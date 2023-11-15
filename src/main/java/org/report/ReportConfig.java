@@ -14,7 +14,8 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class ReportConfig {				
 	public static ExtentHtmlReporter reports;			
 	public static ExtentReports extent;			
-	public static ExtentTest test;			
+	public static ExtentTest test;	
+	public static  ExtentTest node;
 
 
 	public static void Report() {		
@@ -31,21 +32,19 @@ public class ReportConfig {
 		extent.flush();
 	}
 	public static void ReportCreateTestcase(String Title) throws ClassNotFoundException {
-		test = extent.createTest(Title);
+		 test = extent.createTest(Title);
 	}
-
+	public static void ReportCreateNode(String Title) throws ClassNotFoundException {
+		node =test.createNode(Title);
+	}
 	public static void Pass(String passdetails) throws Throwable {
 		String ScreenShot = UtilityClass.captureScreenshot();
-		test.pass(passdetails, MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenShot).build());
+		node.pass(passdetails, MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenShot).build());
 	}
 	public static void Fail(String e) throws Throwable {
 		String ScreenShot = UtilityClass.captureScreenshot();
-		test.fail(e, MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenShot).build());
+		node.fail(e, MediaEntityBuilder.createScreenCaptureFromBase64String(ScreenShot).build());
 
 	}
-
-
-
-
 
 }

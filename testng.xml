@@ -4,9 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="org.test.testclass.LaunchStep"/>
-      <class name="org.test.testclass.Valid_LoginStep"/>
-       <class name="org.test.testclass.Invalid_LoginStep"/>
-       <class name="org.test.testclass.EmptyField_LoginStep"/>
+      <class name="org.test.testclass.LoginSteps"/>
        <class name="org.test.testclass.LogoutStep"/>
     </classes>
   </test> <!-- Test -->
